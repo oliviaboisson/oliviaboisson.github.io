@@ -33,6 +33,7 @@ nav, ul{
 .body{
   display:flex;
   flex-direction:row;
+  justify-content:space-around;
   background-color:#FFF;
   margin:1em;
   padding:1em;
