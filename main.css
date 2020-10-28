@@ -29,12 +29,14 @@ t2{
 }
 
 .nav{
-   max-witdh:8em;
-   padding:1em;
-   box-shadow:1px 1px 10px #000;
+  display:flex;
+  max-witdh:8em;
+  padding:1em;
+  box-shadow:1px 1px 10px #000;
 }
 
 .content{
+  display:flex;
   width:auto;
   padding:1em;
   background-color:#AAA;
