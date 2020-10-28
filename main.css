@@ -11,6 +11,11 @@ html, body{
   padding:1em;  
 }
 
+t1{
+  font-size:20px;
+  border-bottom :1px solid #000;
+}
+
 .body{
   display:flex;
   flex-direction:row;
