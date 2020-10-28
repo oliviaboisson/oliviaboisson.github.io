@@ -7,10 +7,13 @@ html, body{
 
 .head{
   background-color:#A0C6C4;
-  align-items:center;
+  self-align:center;
+  margin:1em;
+  
 }
 
 .body{
   background-color:#FFF;
   box-shadow:1px 1px 10px #000;
+  margin:1em;
 }
