@@ -7,13 +7,22 @@ html, body{
 
 .head{
   background-color:#A0C6C4;
-  self-align:center;
+  text-align:center;
   padding:1em;  
 }
 
 .body{
+  display:flex;
+  flex-direction:row;
   background-color:#FFF;
-  box-shadow:1px 1px 10px #000;
   margin:1em;
   padding:1em;
+}
+
+.nav{
+   box-shadow:1px 1px 10px #000;
+}
+
+.content{
+
 }
