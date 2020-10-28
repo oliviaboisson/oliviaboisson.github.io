@@ -1,8 +1,14 @@
 html, body{
   margin:0;
   padding:0;
+  display:flex;
 }
 
 .head{
   background-color:#A0C6C4;
+}
+
+.body{
+  background-color:#FFF;
+  box-shadow:1px 1px 1px #000;
 }
