@@ -12,8 +12,13 @@ html, body{
 }
 
 t1{
-  font-size:20px;
+  font-size:30px;
   border-bottom :1px solid #000;
+}
+
+t2{
+  font-size:16px;
+  margin:1em;
 }
 
 .body{
