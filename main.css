@@ -21,7 +21,7 @@ t2{
   margin:1em;
 }
 
-nav{
+nav, ul, li{
   display:flex;
   flex-direction:row;
 }
