@@ -2,12 +2,13 @@ html, body{
   margin:0;
   padding:0;
   display:flex;
+  flex-direction:column;
 }
 
 .head{
   background-color:#A0C6C4;
   display:flex;
-  self-align:center;
+  align-items:center;
 }
 
 .body{
