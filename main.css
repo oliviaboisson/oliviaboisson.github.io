@@ -20,9 +20,10 @@ html, body{
 }
 
 .nav{
+   max-witdh:5em;
    box-shadow:1px 1px 10px #000;
 }
 
 .content{
-
+  min-width:10em;
 }
