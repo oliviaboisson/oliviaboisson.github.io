@@ -16,14 +16,15 @@ html, body{
   flex-direction:row;
   background-color:#FFF;
   margin:1em;
-  padding:1em;
 }
 
 .nav{
    max-witdh:6em;
+   padding:1em;
    box-shadow:1px 1px 10px #000;
 }
 
 .content{
   min-width:9em;
+  padding:1em;
 }
