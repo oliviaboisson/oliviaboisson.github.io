@@ -7,11 +7,10 @@ html, body{
 
 .head{
   background-color:#A0C6C4;
-  display:flex;
   align-items:center;
 }
 
 .body{
   background-color:#FFF;
-  box-shadow:1px 1px 1px #000;
+  box-shadow:1px 1px 10px #000;
 }
