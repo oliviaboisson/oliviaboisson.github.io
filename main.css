@@ -8,6 +8,10 @@ html, body{
   background-color:#A0C6C4;
 }
 
+t1, t2{
+  self-align:center;
+}
+
 .body{
   background-color:#FFF;
   box-shadow:1px 1px 1px #000;
