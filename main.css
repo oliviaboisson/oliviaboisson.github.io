@@ -19,12 +19,13 @@ html, body{
 }
 
 .nav{
-   max-witdh:6em;
+   max-witdh:8em;
    padding:1em;
    box-shadow:1px 1px 10px #000;
 }
 
 .content{
-  min-width:9em;
+  min-width:20em;
   padding:1em;
+  background-color:#AAA;
 }
