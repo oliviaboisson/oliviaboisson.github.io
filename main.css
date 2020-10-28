@@ -21,11 +21,18 @@ t2{
   margin:1em;
 }
 
+nav{
+  display:flex;
+  flex-direction:row;
+}
+
 .body{
   display:flex;
   flex-direction:row;
   background-color:#FFF;
   margin:1em;
   padding:1em;
+  width:200em;
+  height:200em;
   box-shadow:1px 1px 10px #000;
 }
