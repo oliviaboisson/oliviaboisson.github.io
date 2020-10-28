@@ -24,6 +24,7 @@ t2{
 nav, ul, li{
   display:flex;
   flex-direction:row;
+  justify-content:space-around;
 }
 
 .body{
@@ -32,7 +33,7 @@ nav, ul, li{
   background-color:#FFF;
   margin:1em;
   padding:1em;
-  width:200em;
-  height:200em;
+  width:60em;
+  height:100em;
   box-shadow:1px 1px 10px #000;
 }
