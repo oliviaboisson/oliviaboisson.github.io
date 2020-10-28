@@ -30,7 +30,7 @@ t1{
 }
 
 .content{
-  min-width:20em;
+  width:auto;
   padding:1em;
   background-color:#AAA;
 }
