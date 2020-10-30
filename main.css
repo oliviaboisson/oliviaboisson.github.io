@@ -25,9 +25,6 @@ t2{
 nav, ul, li{
   display:flex;
   flex-direction:row;
-}
-
-nav, ul{
   justify-content:center;
 }
 
