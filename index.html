@@ -1,28 +1,52 @@
 <!DOCTYPE HMTL>
 <head>
-  <meta charset="UTF-8" />
-  <title>Mon portfolio : Accueil</title>
-  <link rel="stylesheet" href="main.css" />
+	<meta charset="UTF-8" />
+	<title>Mon portfolio : Accueil</title>
+	<link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
   
-  <div class="head">
-    <t1>Portfolio BTS SIO</t1></br>
-    <t2>Créé par Olivia Boisson</t2>
-  
-    <nav>
-       <ul>
-         <li>Mes comptes-rendus</li>
-         <li>Mes tutoriels</li>
-         <li>Autres</li>
-       </ul>
-     </nav>
-  
-  </div>
-  
-  <div class="body">
-    
-  </div>
+	<div class="head">
 
+		<div class="titles">
+			<div class="title"><t1>Portfolio BTS SIO</t1></div></br>
+			<div class="subtitle"><t2>Créé par Olivia Boisson</t2></div>
+		</div>
+  
+		<nav>
+			<ul class="menu">
+
+				<div class="element1">
+					<a onclick="displaySubmenu(0)"><li class="menuElement">Mes comptes-rendus</li></a>
+					<ul class="submenu">
+						<div class="submenuCase"><li class="submenuElement">Installation d'un serveur FOG</li></div>
+						<div class="submenuCase"><li class="submenuElement">Réplication d'un contrôleur de domaine</li></div>
+						<div class="submenuCase"><li class="submenuElement">Mise en place d'un serveur GLPI</li></div>
+						<div class="submenuCase"><li class="submenuElement">Mise en place d'un serveur Zimbra</li></div>
+					</ul>
+				</div>
+				
+				<div class="element2">
+					<a onclick="displaySubmenu(1)"><li class="menuElement">Mes tutoriels</li></a>
+					<ul class="submenu">
+						<div class="submenuCase"><li class="submenuElement">Lire une vidéo en boucle</li></div>
+					</ul>
+				</div>
+
+				<li class="menuElement">Autres</li>
+			</ul>
+		</nav>
+  
+	</div>
+  
+	<div class="body">
+
+		<div class="page">
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="submenu.js"></script>
 </body>
