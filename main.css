@@ -19,6 +19,7 @@ t1{
 t2{
   font-size:16px;
   margin:1em;
+  padding:1em;
 }
 
 nav, ul, li{
@@ -27,13 +28,13 @@ nav, ul, li{
 }
 
 nav, ul{
-  justify-content:space-around;
+  justify-content:center;
 }
 
 .body{
   display:flex;
   flex-direction:row;
-  justify-content:space-around;
+  justify-content:center;
   background-color:#FFF;
   margin:1em;
   padding:1em;
