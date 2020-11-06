@@ -71,16 +71,16 @@ nav{
 
 .submenu{
 	margin:0;
-	margin-right:1em;
 	padding:0;
 	width:100%;
 }
 
 .submenuCase{
+	width:100%;
 	border-top:1px solid #000;
 }
 
-.submenuCase:hover, .submenuCase:focus{
+.submenuCase:hover{
 	background:rgba(255,182,193,0.5);
 	text-shadow:0.5px 0.5px 0.5px #000;
 }
@@ -91,7 +91,7 @@ nav{
 	padding-left:0.5em;
 }
 
-li:hover, li:focus{
+li:hover{
 	text-shadow:0.5px 0.5px 0.3px #000;
 }
 
@@ -110,8 +110,4 @@ li:hover, li:focus{
 	width:60em;
 	height:80em;
 	box-shadow:1px 1px 10px #000;
-}
-
-a{
-	text-decoration:none;
 }
